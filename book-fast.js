@@ -20,10 +20,10 @@ const ZONES = {
 // ── 예약 우선순위 (위에서부터 순서대로 시도) ─────────────────────
 //    key: 존, name: 사이트 이름에 포함된 문자열
 const PRIORITY = [
+    { zone: "잔디", name: "잔디 10" },
+  { zone: "잔디", name: "잔디 11" },
   { zone: "C",  name: "C09" },
   { zone: "C",  name: "C07" },
-  { zone: "잔디", name: "잔디 10" },
-  { zone: "잔디", name: "잔디 11" },
   { zone: "B",  name: "B09" },
   { zone: "B",  name: "B10" },
   // ── 나머지 ──

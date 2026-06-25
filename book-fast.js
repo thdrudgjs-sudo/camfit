@@ -23,13 +23,13 @@ const PRIORITY = [
     { zone: "잔디", name: "잔디 10" },
   { zone: "잔디", name: "잔디 11" },
   { zone: "C",  name: "C09" },
+  { zone: "C",  name: "C01" },
+  { zone: "C",  name: "C02" },
+  { zone: "C",  name: "C03" },
   { zone: "C",  name: "C07" },
   { zone: "B",  name: "B09" },
   { zone: "B",  name: "B10" },
   // ── 나머지 ──
-  { zone: "C",  name: "C01" },
-  { zone: "C",  name: "C02" },
-  { zone: "C",  name: "C03" },
   { zone: "C",  name: "C04" },
   { zone: "C",  name: "C05" },
   { zone: "C",  name: "C06" },
@@ -46,6 +46,7 @@ const PRIORITY = [
   { zone: "B",  name: "B04" },
   { zone: "B",  name: "B05" },
   { zone: "B",  name: "B06" },
+  { zone: "A",  name: "A02" },
 ];
 
 // ── 고정 예약자 정보 ──────────────────────────────────────────────
